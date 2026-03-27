@@ -4,7 +4,7 @@ from pathlib import Path
 def get_config():
     return {
         "datasource": "opus_books",
-        "batch_size": 32,
+        "batch_size": 8,
         "num_epochs": 20,
         "lr": 10**-4,
         "seq_len": 350,
